@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Python Installer
+pip-log.txt
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# Local development settings
+*.sqlite3
+*.db
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore files ending with '-saida.txt'
+*-saida.txt

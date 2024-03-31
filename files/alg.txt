@@ -1,0 +1,21 @@
+algoritmo{
+    principal
+    {
+        variaveis
+        {
+            inteiro numero1, numero2, soma;
+        }
+        
+        // Solicita ao usuário para inserir dois números
+        escreva("Digite o primeiro número: ");
+        leia(numero1);
+        escreva("Digite o segundo número: ");
+        leia(numero2);
+        
+        // Calcula a soma dos dois números
+        soma = numero1 + numero2;
+        
+        // Exibe o resultado
+        escreva("A soma de ", numero1, " e ", numero2, " é: ", soma);
+    }
+}
