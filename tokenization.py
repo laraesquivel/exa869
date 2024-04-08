@@ -1,4 +1,4 @@
-
+from lexer import Lexer
 
 class Tokenization:
     def __init__(self, file,input_file_name):
@@ -13,6 +13,7 @@ class Tokenization:
 
     def tokenization_file(self):
         for index,line in enumerate(self.readed_file):
-                for word in line.split():
-                    l = list(' '.join(word))
-                    self.token_file.append((l, index))
+            lemma = Lexer(line)
+            lemma.lemma()
+            for token in lemma.token_list:
+                self.token_file.append((token, index))

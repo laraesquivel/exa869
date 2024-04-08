@@ -11,6 +11,7 @@ exp = next(g)
 t = Tokenization(exp[1],exp[0])
 t.tokenization_file()
 
-w = Writer(t.token_file,t.input_file_name)
+print(t.token_file)
+#w = Writer(t.token_file,t.input_file_name)
 
-w.write()
+#w.write()
